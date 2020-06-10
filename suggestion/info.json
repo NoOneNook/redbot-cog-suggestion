@@ -1,0 +1,8 @@
+{
+    "author" : ["saurichable, lilleke"],
+    "install_msg" : "This cog is absolute trash cog! btw only admins can approve or reject suggestions. just use `n!approve <reason>` or `n!reject` ",
+    "name" : "Suggestion",
+    "short" : "Simple suggestion box.",
+    "description" : "Just a simple suggestion box with voting system.",
+    "tags" : ["suggestion"]
+}
