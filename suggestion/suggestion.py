@@ -122,7 +122,10 @@ class Suggestion(Cog):
             author.append(ctx.author.discriminator)
         await self.config.custom("SUGGESTION", server, s_id).stext.set(suggestion)
         await self.config.custom("SUGGESTION", server, s_id).msg_id.set(msg.id)
-
+      
+        message = ctx.message
+        await asyncio.sleep(4)
+        await message.delete()
 
     @checks.admin_or_permissions(administrator=True)
     @commands.command()
